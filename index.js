@@ -45,7 +45,7 @@ case "j":
     kick.play();
     break;
     case "l":
-        var crash= new Audio("/crash.mp3");
+        var crash= new Audio("crash.mp3");
         crash.play();
     default:
         console.log();
